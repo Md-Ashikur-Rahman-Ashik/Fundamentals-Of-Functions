@@ -1,4 +1,4 @@
-const number = 45;
+// const number = 45;
 function fanOff(){
     console.log("Stand up from your seat.");
     console.log("Walk towards the switch");
@@ -21,3 +21,11 @@ function eatRice(){
     console.log("Take meal to your plate");
     console.log("Begin eating your meal.");
 }
+
+// eatRice();
+
+function square(number){
+    console.log(number);
+}
+console.log("Value of the number parameter is:", number);
+square(4);
